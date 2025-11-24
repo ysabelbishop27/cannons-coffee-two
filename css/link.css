@@ -12,7 +12,9 @@ html {
 
 img {
   max-width: 100%;
+  border: radius 10px; ;
 }
+
 
 body {
   font-family: Poppins;
@@ -42,6 +44,7 @@ header {
 .logo {
   display: flex;
   gap: 1rem;
+  
 }
 h1,h2,h3 {
   font-weight: 300;
@@ -55,7 +58,7 @@ nav ul {
   flex-flow: row wrap;
   gap: 1rem;
   justify-content: center;
-  /* color: */
+  
   
 }
 nav a {
@@ -66,10 +69,13 @@ nav a {
   display: grid;                         
   background-color: #ffffff;
   border-radius: 12px;             
-  max-width: 700px;
   margin: 2rem auto;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+  
+}
+.coffee-card img {
+  border-radius: 10px;
 }
 .button {
   background-color: #209d5c ;
@@ -92,6 +98,7 @@ nav a {
 }
 .light-blue {
   background-color:#cadbf8 ;
+ 
 }
 .dark-blue {
 background-color: #06327d;
@@ -118,6 +125,9 @@ footer {
   }
   header {
     justify-content: space-between;
+  }
+  .card {
+    margin: 0
   }
 }
 
