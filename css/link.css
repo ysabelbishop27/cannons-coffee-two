@@ -23,6 +23,7 @@ body {
   background-color: #063270;
   margin: 0;
   padding: 0;
+  line-height: 1.5;
 }
 
 main {
@@ -51,6 +52,7 @@ header {
 
 h1,h2,h3 {
   font-weight: 300;
+  line-height: 1.1667;
 }
 h1 {
   font-size: 3rem;
